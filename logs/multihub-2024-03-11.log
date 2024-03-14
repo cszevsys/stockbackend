@@ -1,7 +1,0 @@
-22:52:29.604 | INFO | fec380680c454f81b06570a7fd55116a | /Users/cswong/backend-template/logger.js:202 - GET /api/company/list 200 - 93.030 ms
-22:52:29.690 | INFO | fec01c6406c2443c80bb88c4d3039ec1 | /Users/cswong/backend-template/logger.js:202 - GET /favicon.ico 404 - 0.953 ms
-22:52:55.120 | ERROR | ::1 | undefined | bfc6a7f3a6054403ad6e2f5a93da50d5 | /Users/cswong/backend-template/src/responseBody/commonResponseBody.js:18 - error: TypeError: BalanceSheet.find(...).group is not a function
-22:52:55.122 | INFO | bfc6a7f3a6054403ad6e2f5a93da50d5 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 500 - 3.937 ms
-22:53:27.855 | ERROR | ::1 | undefined | c99b14becf2f434fb43fd7f0e6e65ec2 | /Users/cswong/backend-template/src/responseBody/commonResponseBody.js:18 - error: CastError: Cast to Number failed for value "PADINI" (type string) at path "companyName" for model "balanceSheets"
-22:53:27.858 | INFO | c99b14becf2f434fb43fd7f0e6e65ec2 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 500 - 21.481 ms
-22:54:00.555 | INFO | 373dad6fd7e84259b17a1bbb2c4dec10 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 163.174 ms
