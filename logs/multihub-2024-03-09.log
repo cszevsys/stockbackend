@@ -1,0 +1,10 @@
+22:02:51.914 | ERROR | ::1 | undefined | f78fefd179e046b4ab74406b093812ca | /Users/cswong/backend-template/src/responseBody/commonResponseBody.js:18 - error: TypeError: Company.find is not a function
+22:02:51.918 | INFO | f78fefd179e046b4ab74406b093812ca | /Users/cswong/backend-template/logger.js:202 - GET /api/company/list 500 - 4.093 ms
+22:02:52.003 | INFO | 6499a98b5b714f72a6b8e83584ca80ed | /Users/cswong/backend-template/logger.js:202 - GET /favicon.ico 404 - 0.896 ms
+22:02:57.279 | ERROR | ::1 | undefined | 4d68cfec8ca94ab992899ae07566f2f8 | /Users/cswong/backend-template/src/responseBody/commonResponseBody.js:18 - error: TypeError: Company.find is not a function
+22:02:57.282 | INFO | 4d68cfec8ca94ab992899ae07566f2f8 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/list 500 - 3.315 ms
+22:02:58.081 | ERROR | ::1 | undefined | b1147375728444ff86950033d0c50a69 | /Users/cswong/backend-template/src/responseBody/commonResponseBody.js:18 - error: TypeError: Company.find is not a function
+22:02:58.083 | INFO | b1147375728444ff86950033d0c50a69 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/list 500 - 1.884 ms
+22:04:51.260 | INFO | a211c3e2c9c94dbd8cab9712c5dbfc75 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/list 200 - 16.729 ms
+22:06:18.642 | INFO | 8de3771734154f7d993fb9daf053ad85 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/list 200 - 102.110 ms
+22:07:28.793 | INFO | d87c4b9e9397495eb452e16cef54e121 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/list 200 - 81.591 ms

@@ -1,0 +1,33 @@
+17:59:30.472 | INFO | 5c9add0af7ed4c209ec1e5f99b8479c9 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet 404 - 3.741 ms
+17:59:39.259 | INFO | b6d1e27c3cce4416909d2b05a33c42c9 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/:PADINI 200 - 154.625 ms
+17:59:49.785 | INFO | 442a4ace3a1d4637a7d2a4f855dfa75c | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 98.411 ms
+18:01:55.509 | INFO | 93ef6872d54443f9bb6719b14668b043 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 94.397 ms
+18:02:20.650 | INFO | 676a658b134a4bb0812c08f8f116875f | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 106.661 ms
+18:02:54.959 | INFO | f41e2c61392e4837bf2c0067cb590d00 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 100.957 ms
+18:03:47.313 | INFO | f26e6fe3017b4607902838eb7fb94637 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 91.980 ms
+18:04:14.084 | INFO | e8a3f63a84964f6588e89673c451df2f | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 97.501 ms
+18:04:42.205 | INFO | e0b6c9a2829b49e9bc0390038c34422a | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 103.502 ms
+18:05:13.066 | INFO | dbd75225cb734d2c9d4ebfd1367688b5 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 128.266 ms
+18:06:46.707 | INFO | c00e8345b89c40d29e1606e3cd4c23f9 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/incomeStatement/PADINI 404 - 4.663 ms
+18:10:03.873 | INFO | b5659e2cbdff4701bb4937ecf39d6624 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 103.964 ms
+18:10:49.133 | INFO | 6d7011a99cb24b779b613b192be3ffc8 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 118.863 ms
+18:10:52.407 | INFO | 21224c34f8134f6f924ed8249d04902d | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 93.138 ms
+18:10:55.882 | INFO | 010ed144dff04a998a74af68b16dce11 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/incomeStatement/PADINI 200 - 3.815 ms
+18:10:59.318 | INFO | be6b0d26b58f4660b5f67a65d885d0b2 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/balancesheet/PADINI 200 - 88.962 ms
+18:11:09.398 | INFO | 3f6dfe8cf5964b4a8309ac13be482a7e | /Users/cswong/backend-template/logger.js:202 - GET /api/company/financial/cashflow/PADINI 200 - 3.759 ms
+18:40:43.405 | INFO | c1245ebc714f40c6874f40e8ceafffd1 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/stock/name/3A 404 - 4.779 ms
+18:41:05.996 | INFO | f2b363f0ebaf448795d9df93179955d0 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/stock/name/3A 200 - 2164.282 ms
+18:42:05.152 | INFO | b82889e27b114b8ea18a704ad034dd19 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/stock/name/3A 200 - 1400.816 ms
+18:43:11.077 | INFO | 6ce2ee8cc36047679ae5b4b7c6ffdd22 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/stock/code/12 200 - 1191.937 ms
+18:48:26.546 | INFO | 70ff1aa8ec554593bcc4d368f25a7543 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/stock/code/12 200 - 1329.732 ms
+18:48:43.147 | INFO | 309eb0fc96e44d2c995b2e01cfcf9563 | /Users/cswong/backend-template/logger.js:202 - GET /api/company/stock/code/0242 200 - 1223.412 ms
+21:18:23.975 | ERROR | ::1 | undefined | eb24dc49693f415c91d48936bb89feb3 | /Users/cswong/backend-template/src/responseBody/commonResponseBody.js:18 - error: ReferenceError: body is not defined
+21:18:23.979 | INFO | eb24dc49693f415c91d48936bb89feb3 | /Users/cswong/backend-template/logger.js:202 - POST /api/auth/register 500 - 111.731 ms
+21:18:46.299 | INFO | ad034cecf149477b93c6f5ec998df496 | /Users/cswong/backend-template/logger.js:202 - POST /api/auth/register 200 - 114.527 ms
+21:21:46.546 | INFO | f2e71c63a9384a2798e981e280210d7c | /Users/cswong/backend-template/logger.js:202 - POST /api/auth/login 404 - 45.023 ms
+21:23:12.647 | INFO | 1fc35ce519c14981bf7b07970bfab57b | /Users/cswong/backend-template/logger.js:202 - POST /api/auth/login 404 - 22.107 ms
+21:26:57.582 | ERROR | ::1 | undefined | 5100830395994d67b802dfac439e973f | /Users/cswong/backend-template/src/responseBody/commonResponseBody.js:18 - error: Error: secretOrPrivateKey must have a value
+21:26:57.587 | INFO | 5100830395994d67b802dfac439e973f | /Users/cswong/backend-template/logger.js:202 - POST /api/auth/login 500 - 136.917 ms
+21:28:42.056 | ERROR | ::1 | undefined | 408e38206f0f40bc8811591c48aa2711 | /Users/cswong/backend-template/src/responseBody/commonResponseBody.js:18 - error: ReferenceError: userInfo is not defined
+21:28:42.059 | INFO | 408e38206f0f40bc8811591c48aa2711 | /Users/cswong/backend-template/logger.js:202 - POST /api/auth/login 500 - 141.294 ms
+21:29:20.224 | INFO | bf06284d7dac48d0aa31e53f2a2d523c | /Users/cswong/backend-template/logger.js:202 - POST /api/auth/login 200 - 132.292 ms
