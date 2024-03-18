@@ -4,6 +4,7 @@ import companyController from "../../controller/company/companyController.js";
 const companyRouter = express.Router();
 
 companyRouter.get("/list",companyController.getCompanyList);
+companyRouter.get("/list/simplified",companyController.getCompanyListSimplified);
 companyRouter.get("/profile/:companyName", companyController.getCompanyProfileByName);
 companyRouter.get("/summary/:companyName", companyController.getCompanySummaryByName);
 companyRouter.get("/financial/balancesheet/:companyName", companyController.getCompanyBalanceSheetByName)

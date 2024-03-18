@@ -38,6 +38,17 @@ const companyController = {
         }
         
     },
+
+    async getCompanyListSimplified(req, res){
+        try{
+            var companies = await companyCrud.getCompanyListSimplified();
+            responseBody.successHandler(res, companies);
+        }
+        catch(error){
+            responseBody.errorHandler(res, error);
+        }
+    },
+    
     async getCompanyProfileByName(req, res){
         try{
             const company = await companyCrud.getCompanyByCompanyName(req.params.companyName);

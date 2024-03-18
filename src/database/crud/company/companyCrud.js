@@ -28,4 +28,9 @@ export default {
     
         return totalCount[0] ? totalCount[0].count : 0;
     },
+
+    async getCompanyListSimplified(){
+        const companies = await Company.find({}, {companyName: 1, _id: 1});
+        return companies;
+    }
 }
