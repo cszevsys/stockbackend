@@ -1,8 +1,12 @@
+import NotFoundException from "../../../exception/notFoundException.js";
 import Company from "../../schema/company/companySchema.js"
 
 export default {
     async getCompanyByCompanyName(companyName){
         const company = await Company.findOne({companyName: companyName});
+        if(!company){
+            throw new NotFoundException("company not found");
+        }
         return company;
     },
 
