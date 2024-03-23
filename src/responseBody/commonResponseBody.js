@@ -1,7 +1,5 @@
 import NotFoundException from "../exception/notFoundException.js";
 import ExistedException from "../exception/existedException.js";
-import VsysException from "../exception/vsysException.js";
-import SendRequestException from "../exception/sendRequestException.js";
 import InvalidPwdException from "../exception/invalidPwdException.js";
 import UnauthorizedException from "../exception/unauthorizedException.js";
 import ForbiddenException from "../exception/forbiddenException.js";
@@ -17,12 +15,6 @@ const defaultSuccessResponse = (res) => {
 const defaultErrorResponse = (res, error) => {
     logger.error(`error: ${error}`);
     res.status(500).send({ status: "Internal Server Error" , message: error.message });
-};
-const VsysErrorResponse = (res, error) => {
-    res.status(503).send({ status: "Vsys Error" , message: error.message })
-};
-const SendRequestErrorResponse = (res, error) => {
-    res.status(503).send({ status: "Send Request Error" , message: error.message});
 };
 const ExistErrorResponse = (res, error) => {
     res.status(409).json({ status: "Conflict", message: error.message });
@@ -46,8 +38,6 @@ export default {
     async errorHandler(res, err) {
         if (err instanceof NotFoundException) NotFoundErrorResponse(res, err);
         else if (err instanceof ExistedException) ExistErrorResponse(res, err);
-        else if (err instanceof SendRequestException) SendRequestErrorResponse(res, err);
-        else if (err instanceof VsysException) VsysErrorResponse(res, err);
         else if (err instanceof InvalidPwdException) UnauthorizedErrorResponse(res, err);
         else if (err instanceof UnauthorizedException) UnauthorizedErrorResponse(res, err);
         else if (err instanceof InvalidInputException) InvalidInputErrorResponse(res, err);
